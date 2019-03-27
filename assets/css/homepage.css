@@ -1,0 +1,9 @@
+.redtext {    
+    color: red;    
+    font-weight:700;    
+    font-size:200px;
+}
+
+#profilephoto {    
+    width:250px;    
+    height:250px;}
