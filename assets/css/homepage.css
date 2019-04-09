@@ -1,9 +1,35 @@
-.redText {    
-    color: red;    
-    font-weight:700;    
-    font-size:200px;
+h1{
+        text-align: center;
+        color:grey;    
+        font-weight:300;    
+        font-size:100px;
+        right: 20ch;
+        text-transform: capitalize;
+        outline: 5ch;
+}
+h2
+{
+    text-align: center;
+    color: lightgray;
+    font-kerning: normal;
+    font-weight: 100px;
+   word-spacing: 100cm;
 }
 
-#profilephoto {    
-    width:250px;    
-    height:250px;}
+
+body{
+    font-weight: 400px;
+    letter-spacing: normal;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 14px;
+    background-attachment: scroll;
+    background-image: url(https://images.pexels.com/photos/214011/pexels-photo-214011.jpeg?cs=srgb&amp;dl=cold-landscape-fashion-214011.jpg&amp;fm=jpg);
+   background-size: 1700px;
+background-position-x: 30%;
+background-position-y: -20%;
+background-blend-mode: difference;
+   background-repeat: no-repeat;
+   background-color: azure;
+   
+  
+}
