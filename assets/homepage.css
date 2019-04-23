@@ -1,0 +1,51 @@
+h1{
+        text-align: center,bottom;
+        color:black;   
+        font-weight:300;    
+        font-size:50px;
+        right: 20ch;
+text-transform: capitalize;
+        outline: 5ch;
+      
+  
+}
+h2
+{
+    text-align: center;
+    color: black;
+    font-kerning: normal;
+    vertical-align: 50%;
+    font-weight: 100px;
+   word-spacing: 100cm;
+}
+h3 { 
+    text-align: center;
+    font-size: 50px;
+
+}
+
+body{
+    text-align: center,left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+* {box-sizing:border-box}
+
+
+
+ 
+li{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+
+}
+a{
+    text-align: center;
+
+}
+ul{
+    text-align: center;
+}
+
+
