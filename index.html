@@ -13,7 +13,10 @@
 	<meta charset="utf-8">
 	<title>photofolio</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<body>
+	
 	<!-- Bootstrap cdn -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -37,6 +40,56 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 	<style>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+body {
+  font-family: "Lato", sans-serif;
+  transition: background-color .5s;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
 	/* Make the image fully responsive */
 	.carousel-inner img {
 	  width: 100%;
@@ -57,31 +110,40 @@
 </style>
 
 <body>
-	
-		
-			<nav class="navbar navbar-expand-sm bg-primary navbar-dark fixed-top">
-				<ul class="navbar-nav">
-					<li class="nav-item active">
-						<a class="file:///C:/Users/gisse/Desktop/Photofolio/index%20for%20profile.html" href="file:///C:/Users/gisse/Desktop/Photofolio/index%20for%20profile.html">Profile</a>
-					</li>
-					<li class="nav-item active">
-						<a class="file:///C:/Users/gisse/Desktop/Photofolio/about%20us%20.html#" href="file:///C:/Users/gisse/Desktop/Photofolio/about%20us%20.html#">About us </a>
-					</li>
-					<li class="nav-item active">
-						<a class="nav-link" href="#">Join Now </a>
-					</li>
-					<li class="nav-item active ">
-							
-						<a class="file:///C:/Users/gisse/Desktop/Photofolio/index.html#" href="file:///C:/Users/gisse/Desktop/Photofolio/index.html#">Photofolio</a>
-								
-					</li>
-					<form class="form-inline" action="/action_page.php">
-						<input class="form-control mr-sm-2" type="text" placeholder="Search">
-						<button class="btn btn-success" type="submit">Search</button>
-
-					
-				</ul>
-			</nav>
+		<div class="w3-container w3-grey">
+				<h1>photofolio</h1>
+			</div>
+			
+		<div id="mySidenav" class="sidenav">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+				<a href="indexforprofile.html">Profile
+				
+				</a>
+				<a href="#">Explore</a> 
+				<a href="#">Membership</a>
+				<a href="#">About Us</a>
+			</div>
+			
+			<div id="main">
+			
+				
+				<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+			</div>
+			
+			<script>
+			function openNav() {
+				document.getElementById("mySidenav").style.width = "250px";
+				document.getElementById("main").style.marginLeft = "250px";
+				document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+			}
+			
+			function closeNav() {
+				document.getElementById("mySidenav").style.width = "0";
+				document.getElementById("main").style.marginLeft= "0";
+				document.body.style.backgroundColor = "white";
+			}
+			</script>
+				 
 			
 		
 				
@@ -107,15 +169,25 @@
 						  
 						  <!-- The slideshow -->
 						  <div class="carousel-inner">
+									<div class="w3-display-container w3-text-white">
 							<div class="carousel-item active">
-							  <img src="../Photofolio/bike -00493.jpg" alt="Los Angeles" width="1100" height="500">
+								<img src="assets\images\bike -00493.jpg" alt="Los Angeles" width="1100" height="500">
+								<div class="w3-display-middle w3-large">A Free Space For Photographers Everywhere</div>
 							</div>
 							<div class="carousel-item">
-							  <img src="../Photofolio/chron (1 of 1)-17.jpg" alt="chron" width="1100" height="500">
+								<img src="assets\images\chron (1 of 1)-17.jpg" alt="chron" width="1100" height="500">
+								<div class="w3-display-middle w3-large">No Monthly Payments</div>
 							</div>
 							<div class="carousel-item">
-							  <img src="../Photofolio/chron (1 of 1)-20.jpg" alt="New York" width="1100" height="500">
+								<img src="assets\images\IMG_2799.jpg" alt="New York" width="1100" height="500">
+								<div class="w3-display-middle w3-large">Just Really Good Pictures</div>
 							</div>
+							<div class="carousel-item">
+								<img src="assets\images\DSC02013.jpg" alt="New York" width="1100" height="500">
+								<div class="w3-display-middle w3-large">Photofolio</div>
+							</div>
+
+						  
 						  </div>
 						  
 						  <!-- Left and right controls -->
@@ -156,10 +228,12 @@
 						
 						</body>
 
-						<h3 class="display-2">Capture Your Moment</h3>
+				<center><h3 class="display-2">Capture Your Moment</h3></center>	
+					
+					
 			  
 						<div class="jumbotron text-center" style="margin-bottom:0">
-							<p>privacy</p> <p>privacy</p><p>privacy</p>
+							<p>privacy</p> 
 							<p>Check Us Out</p>
 							</div>
 	</body>
