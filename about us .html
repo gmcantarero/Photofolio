@@ -1,119 +1,156 @@
-
 <!DOCTYPE html>
-<html>
-<title>photofolio
-</title>
-<meta charset="UTF-8">
+<html lang="en">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+		<title> photofolio</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	</head>
+	<meta charset="utf-8">
+	<title>photofolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<body>
+	
+	<!-- Bootstrap cdn -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+	<!-- link to animation -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+	<!-- Font Awesome Glyphicons -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+	<!-- locall css style-->
+	<link rel="stylesheet" href="assets/css/homepage.css">
+
+	<title>Bootstrap Example</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<style>
+		<meta name="viewport" content=" width =device-width, initial-scale=1">
+
+
+
+body {
+  font-family: "Lato", sans-serif;
+  transition: background-color .5s;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+	/* Make the image fully responsive */
+	.carousel-inner img {
+	  width: 100%;
+	  height: 100%;
+	}
+	
+	</style>
+	 
+</head>
+<title>something</title>
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<body id="myPage">
-​<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+	
+
+
+</style>
+
 <body>
-    <div class="w3-container w3-grey">
-        <h1>Photofolio</h1>
-      </div>
-     
-      <style>body {
-          font-family: "Lato", sans-serif;
-          transition: background-color .5s;
-        }
-        
-        .sidenav {
-          height: 100%;
-          width: 0;
-          position: fixed;
-          z-index: 1;
-          top: 0;
-          left: 0;
-          background-color: #111;
-          overflow-x: hidden;
-          transition: 0.5s;
-          padding-top: 60px;
-        }
-        
-        .sidenav a {
-          padding: 8px 8px 8px 32px;
-          text-decoration: none;
-          font-size: 25px;
-          color: #818181;
-          display: block;
-          transition: 0.3s;
-        }
-        
-        .sidenav a:hover {
-          color: #f1f1f1;
-        }
-        
-        .sidenav .closebtn {
-          position: absolute;
-          top: 0;
-          right: 25px;
-          font-size: 36px;
-          margin-left: 50px;
-        }
-        
-        #main {
-          transition: margin-left .5s;
-          padding: 16px;
-        }
-        
-        @media screen and (max-height: 450px) {
-          .sidenav {padding-top: 15px;}
-          .sidenav a {font-size: 18px;}
-        }
-        </style></style>
-        
-      <div id="mySidenav" class="sidenav">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-          <a href="index.html">homepage</a> 
-          <a href="indexforprofile.html">Profile
-          
-          </a>
-          
-          <a href="#">Explore</a>
-          <a href="about us .html">About Us</a>
-        </div>
-        
-        <div id="main">
-        
-          
-          <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
-        </div>
-        
-        <script>
-        function openNav() {
-          document.getElementById("mySidenav").style.width = "250px";
-          document.getElementById("main").style.marginLeft = "250px";
-          document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-        }
-        
-        function closeNav() {
-          document.getElementById("mySidenav").style.width = "0";
-          document.getElementById("main").style.marginLeft= "0";
-          document.body.style.backgroundColor = "white";
-        }
-        </script>
-           
-<!-- Modal -->
-<div id="id01" class="w3-modal">
-  <div class="w3-modal-content w3-card-4 w3-animate-top">
-    <header class="w3-container w3-teal w3-display-container"> 
-      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
-      <h4>Oh snap! We just showed you a modal..</h4>
-      <h5>Because we can <i class="fa fa-smile-o"></i></h5>
-    </header>
-    <div class="w3-container">
-      <p>Cool huh? Ok, enough teasing around..</p>
-      <p>Go to our <a class="w3-text-teal" href="/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
-    </div>
-    <footer class="w3-container w3-teal">
-      <p>Modal footer</p>
-    </footer>s
-  </div>
+		<div class="w3-container w3-grey">
+				<h1>photofolio</h1>
+			</div>
+			
+		<div id="mySidenav" class="sidenav">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+				<a href="index.html">homepage</a> 
+				<a href="index for profile.html">Profile
+				
+				</a>
+				
+				<a href="Membership.html">Explore</a>
+				<a href="about us .html">About Us</a>
+				<a href="#">Login</a>
+			</div>
+			
+			<div id="main">
+			
+				
+				<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+			</div>
+			
+			<script>
+			function openNav() {
+				document.getElementById("mySidenav").style.width = "250px";
+				document.getElementById("main").style.marginLeft = "250px";
+				document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+			}
+			
+			function closeNav() {
+				document.getElementById("mySidenav").style.width = "0";
+				document.getElementById("main").style.marginLeft= "0";
+				document.body.style.backgroundColor = "white";
+			}
+      </script>
+      <div class="container"></div>
+				 
+			
+
 </div>
  <!-- Photo grid -->
  <div class="w3-row w3-normal">

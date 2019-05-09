@@ -1,3 +1,21 @@
+
+		.bg-image {
+            /* The image used */
+            background-image: url("assets\images\background.PNG");
+            
+          
+            
+            /* Full height */
+            height: 100%; 
+            
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+
+
+
 h1{
         text-align: center,bottom;
         color:black;   
@@ -25,6 +43,7 @@ h3 {
 }
 
 body{
+    background-image: image(assets\imagesfor hp\background.PNG)
     text-align: center,left;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   
@@ -37,7 +56,7 @@ body{
 li{
     text-align: center;
     font-size: 15px;
-    color: white;
+
 
 }
 a{
